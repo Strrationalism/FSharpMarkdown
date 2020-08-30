@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FSharpMarkdown/obj
+/FSharpMarkdown/bin
+/FSharpMarkdown/.vs/FSharpMarkdown/v16
