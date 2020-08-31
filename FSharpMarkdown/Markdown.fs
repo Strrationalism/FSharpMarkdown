@@ -7,6 +7,8 @@ let h4 text = Heading (4,[Plain text])
 let h5 text = Heading (5,[Plain text])
 let h6 text = Heading (6,[Plain text])
 
+let plain text : Text = Plain text |> Seq.singleton
+
 let code language content = Code (language,content)
 
 let p text = Paragraph [Plain text]
