@@ -3,7 +3,7 @@ The DSL for generating Markdown Document.
 
 [![NuGet Badge](http://img.shields.io/nuget/v/FSharpMarkdown.svg?style=flat)](https://www.nuget.org/packages/FSharpMarkdown/)
 
-### Example
+### Example 
 
 ```fsharp
 open FSharpMarkdown
