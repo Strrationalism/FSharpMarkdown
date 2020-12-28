@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.9.1</Version>
+    <Version>1.0.0</Version>
     <Authors>Seng Jik</Authors>
     <Company>Strrationalism</Company>
     <PackageProjectUrl>https://github.com/Strrationalism/FSharpMarkdown</PackageProjectUrl>
@@ -16,6 +16,10 @@
     <Compile Include="AST.fs" />
     <Compile Include="Markdown.fs" />
     <Compile Include="Generator.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.1.17" />
   </ItemGroup>
 
 </Project>
